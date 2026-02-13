@@ -1,0 +1,59 @@
+solar-surv-tech/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CONTRIBUTING.md
+│
+├── firmware/
+│   ├── solar-surv-tech.ino      # Main Arduino sketch
+│   ├── config.h                  # Configuration file
+│   └── libraries.txt             # Required libraries list
+│
+├── dashboard/
+│   ├── index.html                # Main dashboard interface
+│   ├── css/
+│   │   └── styles.css            # Dashboard styling
+│   ├── js/
+│   │   ├── main.js               # Dashboard logic
+│   │   └── lora-receiver.js      # LoRa message handling
+│   └── assets/
+│       ├── logo.png
+│       └── icons/
+│
+├── hardware/
+│   ├── schematics/
+│   │   ├── circuit-diagram.pdf
+│   │   └── wiring-diagram.png
+│   ├── pcb/
+│   │   ├── gerber-files/
+│   │   └── solar-surv-pcb.kicad
+│   ├── enclosure/
+│   │   └── 3d-models/
+│   │       ├── case-top.stl
+│   │       └── case-bottom.stl
+│   └── bom.csv                   # Bill of Materials
+│
+├── docs/
+│   ├── images/
+│   │   ├── dashboard-normal.png
+│   │   ├── dashboard-alert.png
+│   │   └── hardware-prototype.jpg
+│   ├── user-manual.md
+│   ├── installation-guide.md
+│   ├── troubleshooting.md
+│   └── presentations/
+│       ├── pitch-deck.pdf
+│       └── technical-slides.pdf
+│
+├── tests/
+│   ├── sensor-tests/
+│   │   ├── pulse-test.ino
+│   │   ├── temperature-test.ino
+│   │   └── humidity-test.ino
+│   └── integration-tests/
+│       └── full-system-test.ino
+│
+└── scripts/
+    ├── setup-lora.sh             # LoRa configuration script
+    ├── flash-firmware.sh         # Automated firmware upload
+    └── start-dashboard.py        # Dashboard server launcher

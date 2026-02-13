@@ -1,0 +1,137 @@
+# Contributing to Solar-Surv-Tech
+
+Thank you for considering contributing to Solar-Surv-Tech! This project aims to improve healthcare delivery in rural areas, and every contribution helps.
+
+## How to Contribute
+
+### Reporting Bugs
+
+If you find a bug, please create an issue with:
+- Clear description of the problem
+- Steps to reproduce
+- Expected vs actual behavior
+- Hardware/software versions
+- Any error messages or logs
+
+### Suggesting Features
+
+We welcome feature suggestions! Please:
+- Check existing issues first to avoid duplicates
+- Clearly describe the feature and its benefits
+- Explain how it fits with the project's mission
+- Consider implementation complexity
+
+### Code Contributions
+
+1. **Fork the repository**
+   ```bash
+   git clone https://github.com/yourusername/solar-surv-tech.git
+   cd solar-surv-tech
+   ```
+
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+
+3. **Make your changes**
+   - Follow existing code style
+   - Comment complex logic
+   - Test thoroughly on hardware if possible
+
+4. **Commit your changes**
+   ```bash
+   git commit -m "Add: Brief description of changes"
+   ```
+   
+   Use prefixes:
+   - `Add:` for new features
+   - `Fix:` for bug fixes
+   - `Update:` for improvements
+   - `Docs:` for documentation
+
+5. **Push to your fork**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+6. **Open a Pull Request**
+   - Describe what you changed and why
+   - Reference any related issues
+   - Include testing details
+
+## Code Standards
+
+### Arduino/C++ Code
+- Use meaningful variable names
+- Comment sensor calibration values
+- Include error handling
+- Optimize for low power consumption
+- Follow Arduino style guide
+
+### Web Dashboard
+- Keep it lightweight (rural connectivity)
+- Ensure mobile responsiveness
+- Test on multiple browsers
+- Minimize external dependencies
+
+### Documentation
+- Use clear, simple language
+- Include diagrams where helpful
+- Provide real-world examples
+- Consider non-technical users
+
+## Development Setup
+
+### Required Tools
+- Arduino IDE 2.0+ or PlatformIO
+- Git for version control
+- Text editor (VS Code recommended)
+
+### Hardware Testing
+If you have access to hardware:
+- Test on actual sensors when possible
+- Document any calibration needed
+- Note power consumption changes
+- Test in various environmental conditions
+
+### Simulation
+If no hardware available:
+- Use serial monitor for debugging
+- Simulate sensor values in code
+- Test dashboard with mock data
+
+## Project Priorities
+
+1. **Reliability**: Code must work in challenging conditions
+2. **Low Power**: Optimize battery life
+3. **Offline-First**: Function without internet
+4. **Simplicity**: Easy to deploy and maintain
+5. **Scalability**: Support multiple devices
+
+## Community Guidelines
+
+- Be respectful and inclusive
+- Help newcomers learn
+- Share knowledge freely
+- Focus on constructive feedback
+- Remember: we're building for healthcare workers and patients
+
+## Questions?
+
+- Open an issue for general questions
+- Tag questions with `question` label
+- Check existing issues first
+- Be patient - maintainers are volunteers
+
+## Recognition
+
+All contributors will be acknowledged in the project README. Significant contributions may lead to co-authorship on related publications or presentations.
+
+## 🌍 Impact
+
+Built with ❤️ for rural healthcare in Africa
+
+---
+
+Thank you for helping improve healthcare in rural communities! 🌍❤️
